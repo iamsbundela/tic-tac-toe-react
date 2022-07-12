@@ -1,0 +1,51 @@
+.body  {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.announceContainer{
+  width: 40%;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.restartButton{
+  background-color: lightgreen;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.announceText{
+  color: #fff;
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 14px;
+}
+
+.cell{
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 38px;
+  line-height: 38px;
+  justify-content: center;  
+  box-shadow: 1px 2px 5px rgba(255, 255, 255, 0.6);
+}
